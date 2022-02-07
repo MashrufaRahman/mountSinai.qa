@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: findADoctorTabTest.FindADoctorTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 14.131 s <<< FAILURE! - in findADoctorTabTest.FindADoctorTest
+findADoctorTabTest.FindADoctorTest.verifyingTest  Time elapsed: 9.02 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to find element with locator By.xpath: //input[@id='downshift-0-input']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.1', revision: 'e8fcc2cecf'
+System info: host: 'LAPTOP-CQKLIHEN', ip: '192.168.1.214', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: driver.version: RemoteWebDriver
+	at findADoctorTabTest.FindADoctorTest.verifyingTest(FindADoctorTest.java:11)
+
